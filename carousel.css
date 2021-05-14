@@ -1,0 +1,314 @@
+
+/*======================================================================*/
+
+.navbar{padding: 0 1rem !important}
+.navbar-expand-lg .navbar-nav{line-height: 2.2 !important}
+.collapse .navbar-nav
+{
+
+    font-family: 'roboto'; 
+}
+.dropdown-menu
+{
+    background: #343a40;
+    top: 48px;
+}
+.dropdown-menu .dropdown-item
+{
+    color: #fff;
+    transition: 0.5s ease;
+    padding: .1rem 1rem;
+}
+.dropdown-menu .dropdown-item:hover
+{
+    background: red;
+}
+.nav-link
+{
+    color: #fff !important;
+    
+}
+.nav-link:hover {
+    background: red;
+    transition: 0.5s ease;
+}
+.form-inline
+{
+    margin-left: 10px;
+}
+/*======================================================================*/
+.carousel-indicators.carousel-number li
+{
+    opacity: .8;
+    text-indent: 5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    color: #000;
+    background: #fff;
+    transition: .5s ease;
+    margin: 0 2px;
+    line-height: 15px;
+    bottom: 0;
+    font-size: 10px;
+}
+.carousel-indicators.carousel-number li.active,
+.carousel-indicators.carousel-number li:hover
+{
+    background: red;
+    color: #000;
+}
+.carousel-item .d-block
+{
+    width: 1920px;
+    height: 450px;
+}
+.carousel-caption
+{
+    bottom: 100px;
+}
+
+/*=========================================================================*/
+
+.testimonials 
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.testimonials h1
+{
+    font-weight: bold;
+}
+.testimonials .lead
+{
+    font-family: 'roboto';
+}
+.testimonials span
+{
+    font-size: 20px;
+    font-family: 'roboto';
+    color: red;
+    float: right;
+    margin-right: 50px;
+}
+.testimonials .carousel-indicators li
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border: 3px solid #888;
+    text-indent: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.testimonials .carousel-indicators li.active,
+.testimonials .carousel-indicators li:hover
+{
+    transform: scale(1.5,1.5);
+    border: 3px solid black;
+    opacity: 1;
+}
+.testimonials .carousel-indicators
+{
+    position: static;
+    margin: auto;
+    padding-top: 20px;
+}
+.testimonials .carousel-indicators img
+{
+    max-height: 100%;
+    
+}
+
+/*============================================================================================*/
+
+.price-table
+{
+    background: #eee;
+    overflow-x:hidden;
+    padding: 30px;
+}
+.price-table h1
+{
+    padding-bottom: 30px;
+}
+.price-table .price-box
+{
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.price-table .price-box:hover p
+{
+    transform: scale(1.1,1.1)rotate(360deg);
+    
+}
+.price-table .price-box p
+{
+    font-size: 25px;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    background: #888;
+    margin: 15px auto;
+    border: 1px solid #000;
+    transition-duration: 1s;
+}
+
+
+
+/*============================================================================================*/
+.team
+{
+    background: url('panner.jpg') fixed center center;
+    
+    font-family: 'roboto';
+}
+.blur
+{
+    color: #fff; 
+    background: rgba(2,2,2,0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.team .blur h1
+{
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+.team .person
+{
+    margin-bottom: 30px;
+}
+.team .person img
+{
+   /* border-radius: 50%;*/
+    vertical-align: text-bottom;
+    width: 120px;
+    height: 120px;
+}
+.team .person a
+{
+    color: white;
+    margin: 3px;
+    transition: all .5s ease;
+}
+.team .person .fb:hover
+{
+    color: #404fbc;
+}
+.team .person .linked:hover
+{
+    color: deepskyblue;
+}
+.team .person .google:hover
+{
+    color: red;
+}
+/*============================================================================================*/
+.Statistics
+{
+    background: url('panner2.jpg') fixed center center;
+}
+.Statistics h1
+{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.Statistics .Stats
+{
+    color: #c1c0c0;
+}
+.Statistics .Stats:hover
+{
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.Statistics p
+{
+    padding-bottom: 20px;
+}
+/*========================================================================*/
+.sk
+{
+    background: url('panner3.jpg') fixed center center;
+}
+.sk .row
+{
+    padding-bottom: 70px;
+}
+.sk h1
+{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.skills
+{
+    background-color: #73faf5;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.prog-bar
+{
+    padding: 0.2em;
+    border-radius: 15px; 
+    font-size: 18px;
+    font-weight: bold;
+    background: #349800;
+}
+
+
+
+/*========================================================================*/
+.contact
+{
+    background: url('panner4.jpg') fixed center center;
+}
+.contact h2
+{
+    font-weight: bold;
+}
+.contact p
+{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.contact textarea
+{
+    height: 92px;
+    resize: none;
+}
+.contact span
+{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
